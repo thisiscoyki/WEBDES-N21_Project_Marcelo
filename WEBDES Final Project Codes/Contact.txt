@@ -1,0 +1,82 @@
+//CONTACT//
+<html>
+<head>
+  <title>Contact Us - Tea Fairy Cafe</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta http-equiv="content-type" content="text/html" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="general-style.css"/>
+  <link rel="stylesheet" type="text/css" href="contact-style.css"/>
+</head>
+<body>
+  <header id="header"></header>
+
+  <nav>
+    <ul class="nav-left">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="reservation.html">RESERVE ORDER</a></li>
+	    <li><a href="#header" class="active">CONTACT US</a></li>
+    </ul>
+
+    <ul class="nav-right">
+      <li><a href="#map">MAP</a></li>
+      <li><a href="#contact-us">INFORMATION</a></li>
+    </ul>
+  </nav>
+
+  <div id="wrapper">
+	<div id="map" style="text-decoration:none; overflow:hidden; height:500px; width:100%; max-width:100%;">
+		<div id="gmap_display" style="height:100%; width:100%;max-width:100%;">
+			<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Tea+Fairy+Cafe,+Mandaluyong,+NCR,+Philippines&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+		</div>
+		<a class="google-html" href="https://www.interserver-coupons.com" id="make-map-information">read more</a>
+		<style>#gmap_display img{max-width:none!important;background:none!important;}</style>
+	</div>
+  <div class="contact-table" id="contact-us">
+    <div class="row">
+      <div id="contact-info" class="box1">
+        <h2>Contact Info</h2>
+        <table class="box1-table">
+        	<tr>
+        		<th>Address: </th>
+        		  <td>614 RPM Bldg. Unit 5, Boni Avenue corner Sikap St., Mandaluyong, 1550 Metro Manila</td>
+        	</tr>
+        	<tr>
+      			<th>Phone: </th>
+      			<td>(02) 933 4038 </td>
+          </tr>
+          <tr>
+            <th>Facebook: </th>
+            <td><a href="https://www.facebook.com/TeaFairyCafe">https://www.facebook.com/TeaFairyCafe</a></td>
+          </tr>
+          <tr>
+            <th>Twitter: </th>
+            <td><a href="https://www.twitter.com/TeaFairyCafe">https://www.twitter.com/TeaFairyCafe</a></td>
+      		</tr>
+      	</table>
+    	</div>
+      <div id="comments" class="box2">
+      	<h2>Leave us a Message</h2>
+        <p>We are very approachable to our customers and we will always appreciate any feedbacks to improve our interaction and services to our customers.</p>
+        <div class="forms">
+          <form>
+            <label for="name">Name: </label><br/><input type="text" size="50" placeholder="Name" id="name" name="message"/><br/>
+            <label for="email">Email: </label><br/><input type="text" size="50" placeholder="Email" id="email" name="message"/><br/><br/>
+            <label for="subject">Subject: </label><br/><input type="text" size="50" placeholder="Subject" id="subject" name="message"/><br/>
+            <label for="messageArea">Message: </label><br/><textarea rows="20" cols="50" placeholder="Type your message" id="messageArea" name="message"></textarea><br/><br/>
+            <input type="submit" class="submit" id="messageSubmit" name="message"/>
+            <input type="reset" class="reset" id="allReset" name="message"/>
+          </form>
+        </div>
+    	</div>
+    </div>
+	</div>
+
+  </div>
+
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=980c5d46-f9ee-324e-5bf8-d44d3cdaafa8&c=google-html&u=1466604359" defer="defer" async="async"></script>
+</body>
+</html>

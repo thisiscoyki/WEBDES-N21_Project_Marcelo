@@ -1,0 +1,61 @@
+//INDEX//
+<html>
+<head>
+  <title>Welcome to the Tea Fairy Cafe!</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta http-equiv="content-type" content="text/html" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="general-style.css"/>
+  <link rel="stylesheet" type="text/css" href="index-style.css"/>
+</head>
+<body>
+  <header id="header"></header>
+
+  <nav>
+    <ul class="nav-left">
+      <li><a href="#header" class="active">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="reservation.html">RESERVE ORDER</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+    <ul class="nav-right">
+      <li><a href="#lets-get-started" class="focus">LET'S GET STARTED</a></li>
+      <li><a href="#ambience" class="focus">AMBIENCE</a></li>
+	  <li><a href="#inspiration" class="focus">INSPIRATION</a></li>
+	  <li><a href="#leisure" class="focus">LEISURE</a></li>
+    </ul>
+  </nav>
+
+  <div id="wrapper">
+
+    <div  id="lets-get-started" class="section sectOne">
+      <div class="sectOneInfo">
+        <h1>Let's get started</h1>
+        <p>Tea Fairy Cafe is one of the most visited teahouse in Mandaluyong City; this is because Tea Fairy Cafe has been given high rated feedbacks from the customers.</p>
+        <p>Let us take a look inside the renowned teahouse in the city.</p>
+      </div>
+    </div>
+    <div id="ambience" class="section sectTwo">
+	  <div class="sectTwoInfo">
+        <h1>Ambience</h2>
+        <p>Feel at home with its semi vintage background, wooden tables, yellow lighting and fine temperature that would make you feel comfortable.</p>
+      </div>
+    </div>
+    <div id="inspiration" class="section sectThree">
+	  <div class="sectThreeInfo">
+		<h1>Inspiration</h2>
+		<p>Get inspired with the walls surrounding the room filled with motivational quotes and serene design.</p>
+	  </div>
+    </div>
+    <div id="leisure" class="section sectFour">
+	  <div class="sectFourInfo">
+		<h1>Leisure</h1>
+		<p>Get in touch with the traditional way of spending time with family, friends, or even yourself.</p>
+	  </div>
+    </div>
+  </div>
+
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

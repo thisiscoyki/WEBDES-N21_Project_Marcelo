@@ -1,0 +1,98 @@
+//RESERVATION//
+<html>
+<head>
+  <title>Reservation - Tea Fairy Cafe</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta http-equiv="content-type" content="text/html" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="general-style.css"/>
+  <link rel="stylesheet" type="text/css" href="forms.css"/>
+</head>
+<body>
+  <header id="header"></header>
+
+  <nav>
+    <ul class="nav-left">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="#header" class="active">RESERVE ORDER</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+  </nav>
+
+  <div id="wrapper">
+    <div class="section">
+      <h1>Inform us about your order</h1>
+      <h3>Limted to 1 order only</h3>
+
+      <form>
+      <label for="name">Customer's name :</label>
+      <input type="text" size="20" name="reserve" id="name"><br>
+      <label for="number">Mobile Number : </label>
+      <input type="text" size="20" name="reserve" id="number"><br>
+      <p>Cup Size : <select name="reserve">
+      <option>Small</option>
+      <option>Medium +P25</option>
+      <option>Large +P50</option>
+      </select></p>
+      <p><b>Milk Tea ~ P75</b></p>
+      <input type="checkbox" name="reserve" id="black">
+      <label for="black">Black Sugar</label>
+      <input type="checkbox" name="reserve" id="choc">
+      <label for="choc">*Chocolate</label>
+      <input type="checkbox" name="reserve" id="green">
+      <label for="green">Green Tea</label>
+      <input type="checkbox" name="reserve" id="honey">
+      <label for="honey">Honey</label>
+      <input type="checkbox" name="reserve" id="taro">
+      <label for="taro">Taro</label>
+      <input type="checkbox" name="reserve" id="magic">
+      <label for="magic">*Magic Mocha</label>
+      <input type="checkbox" name="reserve" id="winter">
+      <label for="winter">*Wintermelon</label>
+      <p><b>Fruit Tea ~ P70</b></p>
+      <input type="checkbox" name="reserve" id="green">
+      <label for="green">Green Apple </label>
+      <input type="checkbox" name="reserve" id="dew">
+      <label for="dew">Honey Dew</label>
+      <input type="checkbox" name="reserve" id="blue">
+      <label for="blue">Blue Berry</label>
+      <input type="checkbox" name="reserve" id="lychee">
+      <label for="lychee">Lychee</label>
+      <input type="checkbox" name="reserve" id="kiwi">
+      <label for="kiwi">Kiwi</label>
+      <input type="checkbox" name="reserve" id="peach">
+      <label for="peach">Peach</label>
+      <input type="checkbox" name="reserve" id="mango">
+      <label for="mango">Mango</label>
+      <input type="checkbox" name="reserve" id="pine">
+      <label for="pine">Pineapple</label>
+      <input type="checkbox" name="reserve" id="lemon">
+      <label for="lemon">Kumquat and Lemon</label>
+      <p><b>Sinkers</b></p>
+      <input type="checkbox" name="reserve" id="pearl">
+      <label for="pearl">Pearl ~ P10</label>
+      <input type="checkbox" name="reserve" id="nata">
+      <label for="nata">Nata ~ P15</label>
+      <input type="checkbox" name="reserve" id="grass">
+      <label for="grass">Grass Jelly ~ P15</label>
+      <input type="checkbox" name="reserve" id="coffee">
+      <label for="coffee">Coffee Jelly ~ P15</label>
+      <input type="checkbox" name="reserve" id="egg">
+      <label for="egg">Egg Pudding</label>
+      <input type="checkbox" name="reserve" id="rainbow">
+      <label for="rainbow">Rainbow Jelly ~ P15</label>
+      <input type="checkbox" name="reserve" id="caramel">
+      <label for="caramel">Caramel Pudding Jelly ~ P15</label>
+      <input type="checkbox" name="reserve" id="pop">
+      <label for="pop">Popping Boba ~ P20</label><br>
+      <p><b>Order Information and Special Requests</b></p>
+      <textarea rows="10" cols="50">Write your requests and additional information about your order here.</textarea><br/>
+      <input type="submit" value="submit" name="reserve" id="submit">&nbsp;
+	  <input type="reset" value="reset" name="reserve" id="reset">
+	  </form>
+    </div>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+//ABOUT//
+<html>
+<head>
+  <title>Welcome to the Tea Fairy Cafe!</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta http-equiv="content-type" content="text/html" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="general-style.css"/>
+  <link rel="stylesheet" type="text/css" href="about-style.css"/>
+</head>
+<body>
+  <header id="header"></header>
+
+  <nav>
+    <ul class="nav-left">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="#header" class="active">ABOUT</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="reservation.html">RESERVE ORDER</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+    <ul class="nav-right">
+      <li><a href="#location" class="focus">LOCATION</a></li>
+      <li><a href="#motto" class="focus">MOTTO</a></li>
+	  <li><a href="#milktea" class="focus">MILKTEA</a></li>
+	  <li><a href="#wifi" class="focus">WIFI</a></li>
+    </ul>
+  </nav>
+
+  <div id="wrapper">
+
+    <div  id="location" class="section sectOne">
+      <div class="sectOneInfo">
+        <h1>Location</h1>
+        <p>Tea Fairy Cafe is a small and chill teahouse located along Boni Avenue, Mandaluyong City. It is known for its simplicity and comfortability.</p>
+      </div>
+    </div>
+    <div id="motto" class="section sectTwo">
+	  <div class="sectTwoInfo">
+        <h1>Motto</h2>
+        <p>The tag line "eat, play, love" is the main reason why Tea Fairy Cafe serves in its finest to its customers. It suitably describes the natural and home-like experience inside the teahouse.</p>
+      </div>
+    </div>
+    <div id="snack" class="section sectThree">
+	  <div class="sectThreeInfo">
+		<h1>MILKTEA</h2>
+		<p>The Tea Fairy Cafe mainly serves milktea because of its soothing feeling in the body when partaken which relieves stress from school, work, and other stuff.</p>
+	  </div>
+    </div>
+    <div id="wifi" class="section sectFour">
+	  <div class="sectFourInfo">
+		<h1>Wifi Connection</h1>
+		<p>Internet is a necessity these days and is one of the fastest source of productivity, Tea Fairy Cafe gives a fast wifi connection to the customers.</p>
+	  </div>
+    </div>
+  </div>
+
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
